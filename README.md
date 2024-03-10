@@ -20,9 +20,10 @@
 
 4. **[Premetheus Running status and Target](#auto-scaling-group-asg-configuration)**
     - open localhost:9090
-    - Configuring scaling policies based on metrics
-    - Code snippet for ASG configuration: [asgConfiguration.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/asgConfiguration.py)
-
+    - If you are able see this page that means Premetheus Docker Container running
+      ![image](homepagePremetheus.png)
+    - Nevigate Target if you are able to target that means target pointed out correctly 
+        ![image](PremetheusTarget.png)
 5. **[Lambda-based Health Checks & Management](#lambda-based-health-checks--management)**
     - Developing a Lambda function for health checks
     - Handling failing instances and notifications through SNS
