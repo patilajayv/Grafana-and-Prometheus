@@ -18,8 +18,8 @@
 
       ```
 
-4. **[Auto Scaling Group (ASG) Configuration](#auto-scaling-group-asg-configuration)**
-    - Creating an ASG with deployed EC2 instances as templates
+4. **[Premetheus Running status and Target](#auto-scaling-group-asg-configuration)**
+    - open localhost:9090
     - Configuring scaling policies based on metrics
     - Code snippet for ASG configuration: [asgConfiguration.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/asgConfiguration.py)
 
