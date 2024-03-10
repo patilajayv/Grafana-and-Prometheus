@@ -2,27 +2,28 @@
 ## Setting Up Premetheus
 
 1. **[Code changes for Log generation](#web-application-deployment)**
-    - Launching EC2 Instances with `boto3`
-    - Configuring EC2 instances as Nginx web servers
-    - Deploying the web application onto EC2 instances
-    - Code snippets for launching instances: [boto3S3LaunchFE.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3S3LaunchFE.py), [boto3S3LaunchBE.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3InstanceBE.py).
+    - clone travel memory repo and  use command for install package prom-client
+      ```
+        npm i prom-client
+      ```
+    - make code change in [index.js](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3S3LaunchFE.py), [boto3S3LaunchBE.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3InstanceBE.py) of backend.
 
-2. **[Load Balancing with ELB](#load-balancing-with-elb)**
+3. **[Load Balancing with ELB](#load-balancing-with-elb)**
     - Deploying an Application Load Balancer (ALB) using `boto3`
     - Registering EC2 instances with the ALB
     - Code snippet for Load Balancing: [LoadBalancing.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/LoadBalancing.py)
 
-3. **[Auto Scaling Group (ASG) Configuration](#auto-scaling-group-asg-configuration)**
+4. **[Auto Scaling Group (ASG) Configuration](#auto-scaling-group-asg-configuration)**
     - Creating an ASG with deployed EC2 instances as templates
     - Configuring scaling policies based on metrics
     - Code snippet for ASG configuration: [asgConfiguration.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/asgConfiguration.py)
 
-4. **[Lambda-based Health Checks & Management](#lambda-based-health-checks--management)**
+5. **[Lambda-based Health Checks & Management](#lambda-based-health-checks--management)**
     - Developing a Lambda function for health checks
     - Handling failing instances and notifications through SNS
     - Screenshots related to the code
 
-5. **[S3 Logging & Monitoring](#s3-logging--monitoring)**
+6. **[S3 Logging & Monitoring](#s3-logging--monitoring)**
     - Content related to S3 Logging and monitoring (not provided in the given information)
 
 
