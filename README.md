@@ -7,6 +7,7 @@
         npm i prom-client
       ```
     - make code change in [index.js](index.js) of backend.
+    - Run FrontEnd and BackEnd services
 
 3. **[Load Balancing with ELB](#load-balancing-with-elb)**
     - Deploying an Application Load Balancer (ALB) using `boto3`
