@@ -9,10 +9,9 @@
     - make code change in [index.js](index.js) of backend.
     - Run FrontEnd and BackEnd services
 
-3. **[Load Balancing with ELB](#load-balancing-with-elb)**
-    - Deploying an Application Load Balancer (ALB) using `boto3`
-    - Registering EC2 instances with the ALB
-    - Code snippet for Load Balancing: [LoadBalancing.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/LoadBalancing.py)
+3. **[Premetheus On docker](#load-balancing-with-elb)**
+    - Code snippet for Load Premetheus configuartion: [prometheus-config.yml](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/LoadBalancing.py)
+    - Docker Compose file for Premetheus On docker: [docker-compose.yaml](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/LoadBalancing.py)
 
 4. **[Auto Scaling Group (ASG) Configuration](#auto-scaling-group-asg-configuration)**
     - Creating an ASG with deployed EC2 instances as templates
