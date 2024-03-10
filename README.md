@@ -6,7 +6,7 @@
       ```
         npm i prom-client
       ```
-    - make code change in [index.js](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3S3LaunchFE.py), [boto3S3LaunchBE.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3InstanceBE.py) of backend.
+    - make code change in [index.js](index.js) of backend.
 
 3. **[Load Balancing with ELB](#load-balancing-with-elb)**
     - Deploying an Application Load Balancer (ALB) using `boto3`
