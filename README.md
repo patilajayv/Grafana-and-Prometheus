@@ -10,8 +10,8 @@
     - Run FrontEnd and BackEnd services
 
 3. **[Premetheus On docker](#load-balancing-with-elb)**
-    - Code snippet for Load Premetheus configuartion: [prometheus-config.yml](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/LoadBalancing.py)
-    - Docker Compose file for Premetheus On docker: [docker-compose.yaml](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/LoadBalancing.py)
+    - Code snippet for Load Premetheus configuartion: [prometheus-config.yml](prometheus-config.yml)
+    - Docker Compose file for Premetheus On docker: [docker-compose.yaml](docker-compose.yaml)
 
 4. **[Auto Scaling Group (ASG) Configuration](#auto-scaling-group-asg-configuration)**
     - Creating an ASG with deployed EC2 instances as templates
