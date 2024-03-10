@@ -25,15 +25,20 @@
     - Nevigate Target if you are able to target that means target pointed out correctly 
         ![image](PremetheusTarget.png)
 
-### Integrating Grafana with Premetheus
+## Integrating Grafana with Premetheus
 
 Finally, after prometheus server can pull metrics from our API server, let’s generate a auto refreshable dashboard using Grafana.
 
 Again, use docker to run a Grafana within a single commend.
 ```
-    docker run -d --name=grafana -p 3000:3000 grafana/grafana
+    docker run -d --name=grafana -p 3003:3003 grafana/grafana
 ```
-1. [boto3S3LaunchFE.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3S3LaunchFE.py)
+- open localhost 3003
+- If you are able see this page that means Grafana Docker Container running
+      ![image](homepagePremetheus.png)
+ - Nevigate Target if you are able to target that means Premetheus pointed out correctly 
+        ![image](PremetheusTarget.png)
+
 2. [boto3S3LaunchBE.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3InstanceBE.py)
 
 Enclosed are the relevant screenshots related to the code.
