@@ -34,11 +34,15 @@ Again, use docker to run a Grafana within a single commend.
     docker run -d --name=grafana -p 3003:3003 grafana/grafana
 ```
 - open localhost 3003
-- If you are able see this page that means Grafana Docker Container running
-      ![image](homepagePremetheus.png)
- - Nevigate Target if you are able to target that means Premetheus pointed out correctly 
-        ![image](PremetheusTarget.png)
-
+- If you are able see this page that means Grafana Docker Container running and Navigate to Add your first data source
+      ![image](GrafanaDashBoard.png)
+ - click on Premetheus
+        ![image](grafanaDataSource.png)
+ - add url of Premetheus
+        ![image](grafanaPremetheusintegrate.png)
+ - Scroll down to bottom click on Test if you able see succesfully queried Premetheus api that means your connection established between Premetheus and grafana
+        ![image](garafanaPremetheusTest.png)
+    
 2. [boto3S3LaunchBE.py](https://github.com/sayanalokesh/DynamicWebApplication/blob/main/boto3InstanceBE.py)
 
 Enclosed are the relevant screenshots related to the code.
