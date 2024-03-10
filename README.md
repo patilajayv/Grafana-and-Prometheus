@@ -12,6 +12,11 @@
 3. **[Premetheus On docker](#load-balancing-with-elb)**
     - Code snippet for Load Premetheus configuartion: [prometheus-config.yml](prometheus-config.yml)
     - Docker Compose file for Premetheus On docker: [docker-compose.yaml](docker-compose.yaml)
+    - Use following command to run Premetheus Docker Container
+      ```
+        docker run --name my-prometheus --mount type=bind,source="$(pwd)"/prometheus-config.yml,destination=/etc/prometheus/prometheus.yml -p 9090:9090  prom/prometheus
+
+      ```
 
 4. **[Auto Scaling Group (ASG) Configuration](#auto-scaling-group-asg-configuration)**
     - Creating an ASG with deployed EC2 instances as templates
